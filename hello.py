@@ -3,7 +3,7 @@
 import sys
 
 def main():
-	name = raw_input('Enter your name: ')
+	name = raw_input('Enter your full name: ')
 	print 'hello', name
 
 if __name__ == '__main__':
