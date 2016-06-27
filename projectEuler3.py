@@ -3,11 +3,11 @@
 #What is the largest prime factor of the number 600851475143 ?
 
 def isPrime(x):
-        global largest
-        for i in range(2, int(x**(0.5) + 1)):
-            if x % i == 0:
-                return False
-        return True  
+    global largest
+    for i in range(2, int(x**(0.5) + 1)):
+        if x % i == 0:
+            return False
+    return True  
        
 def findLargestPrimeFactor(number):  
     factor = 2
